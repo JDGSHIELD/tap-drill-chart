@@ -49,6 +49,21 @@ export default function AboutTab() {
           Filter to show only your frequently-used tap sizes. Customize which sizes appear in the &quot;Common Sizes&quot; tab.
         </p>
       </section>
+      <section>
+        <h3 className="text-white font-bold mb-2">Support This App</h3>
+        <p className="text-[#aaa] text-sm leading-relaxed">
+          If this chart saves you time in the shop, you can support future updates here.
+        </p>
+        <a
+          href="https://www.buymeacoffee.com/Josephdigiuseppe"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-flex items-center gap-2 rounded-[10px] border-2 border-black bg-[#FFDD00] px-4 py-2.5 text-[15px] font-bold text-black transition-transform hover:scale-[1.02] hover:brightness-95"
+        >
+          <span aria-hidden="true" className="text-lg leading-none">☕</span>
+          <span>Buy me a coffee</span>
+        </a>
+      </section>
     </div>
   );
 }
